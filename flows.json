@@ -259,9 +259,9 @@
             "25230cca09861bdd",
             "8a28edfc13be9256"
         ],
-        "x": 54,
+        "x": 44,
         "y": 59,
-        "w": 632,
+        "w": 642,
         "h": 289.5
     },
     {
@@ -1197,6 +1197,41 @@
         "h": 2082
     },
     {
+        "id": "8827eb5e5f892be4",
+        "type": "group",
+        "z": "865b764148bf192a",
+        "name": "Gestió Alarma Intrusió i il·luminació ",
+        "style": {
+            "stroke": "#ffff00",
+            "label": true
+        },
+        "nodes": [
+            "db7b7e9ef93ca0bb",
+            "3d5fa6a41e56277b",
+            "fd9abced55f13214",
+            "3c9fd372ddd4c8dc",
+            "19c483e0d212fef8",
+            "912588fe6e334f05",
+            "10b9e9f350dd9663",
+            "6d02e8035c0fa16d",
+            "6e4d2fcc88533c48",
+            "8905a24277b25cb8",
+            "a9a8a9d868b3d78a",
+            "fe62b1bd0f3472ba",
+            "fbcd4e7503b33a38",
+            "b48a7b1a4a0e0ef3",
+            "8c77a1da92a24e6d",
+            "894df740e71133a7",
+            "aea0ca39b6f2727d",
+            "6bb0f1e785f2b1b1",
+            "9de5aea7ffaf444e"
+        ],
+        "x": 14,
+        "y": 2279,
+        "w": 1332,
+        "h": 322
+    },
+    {
         "id": "c88a13287c6d9f52",
         "type": "group",
         "z": "662afd5c1069609f",
@@ -1613,41 +1648,6 @@
         "y": 4119,
         "w": 732,
         "h": 282
-    },
-    {
-        "id": "8827eb5e5f892be4",
-        "type": "group",
-        "z": "865b764148bf192a",
-        "name": "Gestió Alarma Intrusió i il·luminació ",
-        "style": {
-            "stroke": "#ffff00",
-            "label": true
-        },
-        "nodes": [
-            "db7b7e9ef93ca0bb",
-            "3d5fa6a41e56277b",
-            "fd9abced55f13214",
-            "3c9fd372ddd4c8dc",
-            "19c483e0d212fef8",
-            "912588fe6e334f05",
-            "10b9e9f350dd9663",
-            "6d02e8035c0fa16d",
-            "6e4d2fcc88533c48",
-            "8905a24277b25cb8",
-            "a9a8a9d868b3d78a",
-            "fe62b1bd0f3472ba",
-            "fbcd4e7503b33a38",
-            "b48a7b1a4a0e0ef3",
-            "8c77a1da92a24e6d",
-            "894df740e71133a7",
-            "aea0ca39b6f2727d",
-            "6bb0f1e785f2b1b1",
-            "9de5aea7ffaf444e"
-        ],
-        "x": 14,
-        "y": 2279,
-        "w": 1332,
-        "h": 322
     },
     {
         "id": "237c98b6feb2d065",
@@ -2541,7 +2541,7 @@
         "finalize": "",
         "libs": [],
         "x": 560,
-        "y": 240,
+        "y": 220,
         "wires": [
             []
         ]
