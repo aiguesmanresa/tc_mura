@@ -43503,7 +43503,7 @@
         "addpay": "payload",
         "append": "",
         "useSpawn": "false",
-        "timer": "10",
+        "timer": "5",
         "winHide": false,
         "oldrc": false,
         "name": "",
