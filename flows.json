@@ -43277,7 +43277,9 @@
         "x": 770,
         "y": 160,
         "wires": [
-            [],
+            [
+                "8e2154ca07e12df9"
+            ],
             [],
             []
         ]
@@ -43368,7 +43370,9 @@
         "x": 770,
         "y": 80,
         "wires": [
-            [],
+            [
+                "8e2154ca07e12df9"
+            ],
             [],
             []
         ]
@@ -43503,11 +43507,11 @@
         "addpay": "payload",
         "append": "",
         "useSpawn": "false",
-        "timer": "5",
+        "timer": "15",
         "winHide": false,
         "oldrc": false,
-        "name": "",
-        "x": 470,
+        "name": "backup node-red",
+        "x": 450,
         "y": 500,
         "wires": [
             [
@@ -43597,5 +43601,35 @@
                 "02052b3367ef0e35"
             ]
         ]
+    },
+    {
+        "id": "8e2154ca07e12df9",
+        "type": "sshexec",
+        "z": "8d8051626fa38eec",
+        "name": "",
+        "sshccfg": "5baf0657d8598a6d",
+        "command": "uci commit; /etc/init.d/firewall restart",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "sigint": false,
+        "x": 1020,
+        "y": 120,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "18f4e5fa3281515c",
+        "type": "comment",
+        "z": "8d8051626fa38eec",
+        "name": "ignorar error, funciona bé",
+        "info": "",
+        "x": 1050,
+        "y": 160,
+        "wires": []
     }
 ]
