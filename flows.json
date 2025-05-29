@@ -43485,7 +43485,7 @@
         "fieldType": "msg",
         "format": "text",
         "syntax": "plain",
-        "template": "cd /home/pi/.node-red/projects/programacio\ngit remote set-url origin git@github.com:aiguesmanresa/tc_mura.git\ngit add .\ngit commit -m \"test\"\ngit push",
+        "template": "cd /home/pi/.node-red/projects/programacio\ngit remote set-url origin git@github.com:aiguesmanresa/tc_mura.git\ngit add .\ngit commit -m \"test\"\ngit push --set-upstream origin main",
         "output": "str",
         "x": 280,
         "y": 480,
